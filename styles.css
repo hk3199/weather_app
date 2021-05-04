@@ -1,0 +1,151 @@
+body {
+  font-family: 'Lora', serif;
+  background-image: url('pexels.png.jpeg');
+  background-size: cover;
+  
+}
+.heading{
+  font-size:  50px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 2px 8px rgba(0,0,0,0.08);
+  font-style: italic;
+  color: #fff;
+}
+
+
+
+
+.weatherContainer {
+
+  background-color: rgba(0,0,0,0.25);
+  visibility: hidden;
+  align-items: center;
+  border-radius: 20px;
+  position: absolute;
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: center;
+}
+
+.horizontal{
+  margin: 0;
+  align-self: stretch;
+}
+.name{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.date{
+
+  color: #fff;
+  font-size: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+.temperature{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
+  text-shadow: 2px 8px rgba(0,0,0,0.05);
+  margin: 20px 0px 10px;
+
+}
+.speed{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.weather{
+  color: #fff;
+  font-size: 22px;px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.attributes{
+	font-size: 2em;
+}
+
+.span{
+	padding: 10px;
+}
+
+
+.search-box:active, .search-box:focus {
+  background-color: rgba(255,255,255,0.8);
+}
+
+
+
+.search-box{
+  
+  background-color: rgba(255,255,255,0.5);
+  outline: none;
+  border-radius: 10px 0px 10px 0px;
+  border-bottom: 2px solid #9000ff;
+  font-size:20px;
+  box-shadow: 1px 1px 5px black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 30px;
+  margin-right: 25px;
+
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+
+
+}
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.heading{
+  font-size: 45px;
+}
+
+} 
+
+
+@media ( max-width: 767px) {
+.heading{
+  font-size: 25px;
+}
+
+.search-box{
+height:  20px;
+left: 25%;
+top: 5%
+}
+
+}
+
+
