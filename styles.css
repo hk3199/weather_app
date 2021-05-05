@@ -5,15 +5,12 @@ body {
   
 }
 .heading{
-  font-size:  50px;
+   font-size:  50px;
   font-weight: 500;
   text-align: center;
   text-shadow: 2px 8px rgba(0,0,0,0.08);
   font-style: italic;
   color: #fff;
-  display: inline-block;
-  padding-bottom: 10px;
-  padding: 10px 10px 10px 10px;
 }
 
 
@@ -104,13 +101,17 @@ body {
   flex-direction: column;
   flex-flow: center;
   position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: 30px;
-  margin-right: 25px;
-
+ 
 }
 
+.input{
+   display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: center;
+  align-items: center;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -141,12 +142,6 @@ body {
 @media ( max-width: 767px) {
 .heading{
   font-size: 25px;
-}
-
-.search-box{
-height:  20px;
-left: 25%;
-top: 5%
 }
 
 }
