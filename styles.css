@@ -11,6 +11,7 @@ body {
   text-shadow: 2px 8px rgba(0,0,0,0.08);
   font-style: italic;
   color: #fff;
+  margin-top: 0px;
 }
 
 
@@ -111,6 +112,7 @@ body {
   flex-direction: column;
   flex-flow: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 /********** Large devices only **********/

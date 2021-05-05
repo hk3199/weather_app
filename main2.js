@@ -5,7 +5,7 @@ function setQuery(evt){
 	if(evt.keyCode==13){
 		getResults(searchbox.value);
 		console.log(searchbox.value);
-		evt.preventDefault();
+		//evt.preventDefault();
 	}
 }
 
