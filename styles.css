@@ -143,7 +143,10 @@ body {
 
 @media ( max-width: 767px) {
 .heading{
-  font-size: 25px;
+  font-size: 40px;
+}
+.search-box{
+  max-width: 40%;
 }
 
 }
