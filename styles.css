@@ -137,6 +137,9 @@ body {
 .heading{
   font-size: 45px;
 }
+.search-box{
+  max-width: 40%;
+}
 
 } 
 
