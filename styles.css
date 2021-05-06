@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora', serif;
-  background-image: url('pexels.png.jpeg');
+  background-image: url("https://static8.depositphotos.com/1000580/984/i/600/depositphotos_9840667-stock-photo-sky-background.jpg");
   background-size: cover;
   
 }
@@ -135,10 +135,10 @@ body {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 .heading{
-  font-size: 45px;
+  font-size: 40px;
 }
 .search-box{
-  max-width: 40%;
+  max-width: 50%;
 }
 
 } 
@@ -146,10 +146,10 @@ body {
 
 @media ( max-width: 767px) {
 .heading{
-  font-size: 40px;
+  font-size: 35px;
 }
 .search-box{
-  max-width: 40%;
+  max-width: 50%;
 }
 
 }
