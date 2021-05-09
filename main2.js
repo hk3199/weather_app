@@ -1,6 +1,9 @@
 const searchbox= document.querySelector('.search-box');
 searchbox.addEventListener('keypress',setQuery);
 const iconElement=document.querySelector('.icon-weather');
+
+getLocation();
+
 function setQuery(evt){
 	if(evt.keyCode==13){
 		getResults(searchbox.value);
@@ -43,6 +46,32 @@ function setPositionForInfo()
 	Containerr.style.visibility='visible';
 	
 }
+
+
+
+
+
+
+function getLocation(){
+	var geolocation = navigator.geolocation;
+		console.log(geolocation);
+	geolocation.getCurrentPosition(showLocation,errorHandler);
+	console.log(geolocation);
+}
+
+function showLocation(position){
+	var latitude= position.coords.latitude;
+	console.log(latitude);
+	var longitude = position.coords.longitude;
+	getFirst(latitude,longitude);
+}
+
+function errorHandler(err){
+	if(err.code==1){
+		alert("location access was denied");
+	}
+}
+
 
 
 
